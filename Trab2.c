@@ -131,7 +131,7 @@ void reverse_array(int* begin, int* end) {
 
 int main() {
     Cidade cidades[MAX_CIDADES];
-    int n = lerTSPLIB("teste1.tsp", cidades);
+    int n = lerTSPLIB("testes/teste1.tsp", cidades);
 
     if (n < 2) {
         printf("Número de cidades inválido\n");
